@@ -1,12 +1,11 @@
 class Solution {
   public int[] solution(long n) {
         String str = String.valueOf(n);
-        StringBuilder sb = new StringBuilder(str);
-        sb = sb.reverse();
-        String[] stringArr = sb.toString().split("");
-        int[] answer = new int[sb.length()];
-
-        for (int i=0; i < sb.length(); i++) {
+        StringBuilder sbr = new StringBuilder(str);
+        sbr = sbr.reverse();
+        String[] stringArr = sbr.toString().split("");
+        int[] answer = new int[sbr.length()];
+        for (int i=0; i < sbr.length(); i++) {
             answer[i] = Integer.parseInt(stringArr[i]);
         }
       
