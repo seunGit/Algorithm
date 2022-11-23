@@ -7,4 +7,4 @@ class Solution {
             return false;
         }
     }
-}
+}         // s의 길이가 4 또는 6이고, 숫자로만 구성되어 있다면 true, 아니면 false.
